@@ -1,0 +1,178 @@
+/*中间分类部分*/
+.grid{
+    height: 600px;
+}
+.grid .grid-col1{
+    height:600px;
+    width: 235px;
+    background-color: #fefefe;
+    font-size: 16px;
+    color:#757575;
+}
+.grid-col1 a {
+    color: #626262;
+    font-size: 16px;
+    margin: 0 3px;
+}
+.grid-col1 a:hover{
+    color:#f10215;
+}
+.grid-col1 ul{
+    padding: 20px 0;
+}
+
+.grid-col1 ul li{
+    padding-left:12px;
+    height: 35px;
+    line-height: 35px;
+}
+.grid-col1 ul li:hover{
+    background-color: #9c9698;
+}
+.grid .grid-col2{
+    height:590px;
+    width: 738px;
+    background-color: #999999;
+    margin: 0 10px;
+}
+.grid .grid-col3{
+    width: 240px;
+    height: 587px;
+    background-color:#f6f6f6;
+    margin: 0 6px;
+}
+.grid .grid-col4{
+    width: 235px;
+    height: 600px;
+}
+/*<!--登录模块-->*/
+.login{
+    height: 150px;
+    background-color:#fff;
+    padding:15px;
+}
+.login-t{
+    width: 105px;
+    font-size:13px;
+    white-space: nowrap;/*强制一行内显示*/
+
+    text-overflow:ellipsis;    /*超出部分显示省略号*/
+    height:100px;
+    line-height: 20px;
+    padding-left: 80px;
+    color:#666;
+    position: relative;
+}
+.use-info{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.use-info img{
+    width: 60%;
+    border-radius: 50px;
+}
+.login-b a{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border:2px solid#f10215;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    border-radius: 30px;
+    color: #f10215;
+}
+.login-b a:hover{
+    color: #fff;
+    background-color: #f10215;
+}
+/*<!--服务模块-->*/
+.news {
+    height: 140px;
+    background-color:#fff;
+}
+.news-t{
+    height:23px;
+    position: relative;
+}
+.news-t a{
+    float: left;
+    height: 19px;
+    line-height: 19px;
+    font-size: 14px;
+}
+.cuxiao{
+    width: 50px;
+    border-right: 1px solid#ccc;
+    margin-left: 15px;
+}
+.gonggao{
+    width: 100px;
+    margin-left: 20px;
+}
+.more{
+    float: right;
+}
+.news-t div{
+    width: 33px;
+    height: 2px;
+    background-color: #f10215;
+    position: absolute;
+    bottom: 0;
+    left:14px;
+}
+.news-b{
+    height: 120px;
+    padding-top:10px;
+    padding-left:15px;
+}
+.news-b ul li{
+    height: 27px;
+    font-size: 14px;
+}
+/*服务扩展模块*/
+.expand{
+    height: 250px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.expand ul{
+    width: 245px;
+}
+.expand li{
+    width: 59px;
+    height: 83px;
+    border-bottom: 1px solid#666;
+    border-right: 1px solid#666;
+    float: left;
+}
+.expand li a{
+    display: block;
+    padding-top:15px;
+    text-align: center ;
+}
+.expand li i{
+    display:block;
+    margin:0 auto;
+    margin-bottom:10px;
+    background:url("images/lifeserv.png")no-repeat;
+
+}
+.expand li:first-child i{
+    width: 19px;
+    height: 24px;
+    background-position: -4px -1px;
+}
+.expand li:nth-child(2) i{
+    width: 21px;
+    height: 24px;
+    background-position: -2px -29px;
+}
+.expand li:nth-child(3) i{
+    width: 24px;
+    height: 24px;
+    background-position: -1px -54px;
+}
