@@ -1,0 +1,395 @@
+/* base css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Microsoft YaHei', 'sans-serif';
+  color: #333;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-inner {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/* model css */
+.nav-bg {
+  background-image: url(../images/nav_bg.png);
+  background-repeat: repeat-x;
+  position: absolute;
+}
+
+.nav-wrap {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-l {
+  display: flex;
+}
+
+.nav-logo {
+  width: 93px;
+  height: 44px;
+  padding-top: 15px;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu ul li a {
+  display: block;
+  font-size: 1.8rem;
+  padding: 25px 20px;
+  margin-left: 20px;
+}
+
+.nav-menu ul li:first-child a {
+  background-color: #17B6F3;
+}
+
+.nav-menu ul li a:hover {
+  background-color: #17B6F3;
+  color: #fff;
+}
+
+.nav-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register {}
+
+.register a {
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 8px 30px;
+  background-color: #17B6F3;
+  border-radius: 25px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register a:hover {
+  background-color: rgb(190, 15, 15);
+}
+
+.nav-info__text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.nav-info__text ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-info__text ul li {
+  padding-left: 40px;
+}
+
+.nav-info__text ul a {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 3px #333;
+  transition: all 0.5s;
+}
+
+.nav-info__text ul a:hover {
+  font-size: 2.4rem;
+  color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px 25px;
+  background-color: rgb(117, 218, 92);
+}
+
+.nav-info__text p {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 20px;
+}
+
+.bg-tim-banner {
+  background-image: url(../images/banner-bg.jpg);
+  padding-top: 150px;
+  background-size: cover;
+  /* height: 880px; */
+}
+
+.tim-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tim-banner img {
+  margin-top: 20px;
+}
+
+.tim-sound {
+  display: flex;
+  flex-direction: column;
+}
+
+.tim-sound h1 {
+  height: 321px;
+  background-image: url(../images/sound-text.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 0;
+}
+
+.tim-sound__girl {
+  height: 500px;
+  background-image: url(../images/sound-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.tim-sound__info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 500px;
+}
+
+.tim-sound__info__iphone {
+  width: 700px;
+  height: 700px;
+  background-image: url(../images/sound-phone.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -200px;
+  flex: 5;
+}
+
+.tim-sound__info__content {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.tim-sound__info__content h3 {
+  text-align: right;
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+
+.tim-sound__info__content p {
+  text-align: right;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 5px #333;
+  padding-top: 50px;
+}
+
+.tim-file {
+  display: flex;
+  flex-direction: column;
+}
+
+.tim-file__bg {
+  height: 500px;
+  background-image: url(../images/file-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tim-file__info {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tim-file__info__content h3 {
+  text-align: left;
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+
+.tim-file__info__content p {
+  text-align: left;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 5px #333;
+  padding-top: 50px;
+}
+
+.tim-file__info__computer {
+  width: 600px;
+  height: 330px;
+  background-image: url(../images/file-mac.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+
+.tim-interest__bg {
+  height: 500px;
+  background-image: url(../images/interest-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.tim-interest__info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 500px;
+}
+
+.tim-interest__info__iphone {
+  width: 350px;
+  height: 500px;
+  background-image: url(../images/interest-phone.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.tim-interest__info__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tim-interest__info__content h3 {
+  text-align: right;
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+
+.tim-interest__info__content p {
+  text-align: right;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 5px #333;
+  padding-top: 50px;
+}
+
+.footer-bg-color {
+  background-color: #292929;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 70px;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.links ul li {
+  padding-left: 120px;
+}
+
+.links a {
+  color: #666;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a span {
+  margin-top: 35px;
+}
+
+.links a:hover {
+  color: #17B6F3;
+}
+
+.links li:first-child a {
+  background: url(../images/footer.png)no-repeat 15px 0;
+}
+
+.links li:nth-child(2) a {
+  background: url(../images/footer.png)no-repeat -100px 0;
+}
+
+.links li:nth-child(3) a {
+  background: url(../images/footer.png)no-repeat -202px 0;
+}
+
+.links li:nth-child(4) a {
+  background: url(../images/footer.png)no-repeat -313px 0;
+}
+
+.links li:first-child a:hover {
+  background: url(../images/footer.png)no-repeat 15px -93px;
+}
+
+.links li:nth-child(2) a:hover {
+  background: url(../images/footer.png)no-repeat -100px -93px;
+}
+
+.links li:nth-child(3) a:hover {
+  background: url(../images/footer.png)no-repeat -202px -93px;
+}
+
+.links li:nth-child(4) a:hover {
+  background: url(../images/footer.png)no-repeat -313px -93px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.copyright p {
+  color: #666;
+}
+
+
+.tim-sound .tim-sound__girl,
+.tim-file .tim-file__bg,
+.tim-interest .tim-interest__bg {
+  background-attachment: fixed;
+}
